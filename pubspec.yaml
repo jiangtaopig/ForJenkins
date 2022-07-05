@@ -35,6 +35,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # 拍照和从相册中选照片，拍照不会存到本地相册
+  image_picker: ^0.8.5+3
+
+  # 动态申请权限的库
+  permission_handler: ^10.0.0
+
+  # 图片、video/ gif 存到本地
+  image_gallery_saver: ^1.7.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
